@@ -20,7 +20,8 @@ export default {
         };
     },
     methods: {
-        creatNew() {
+        createNew() {
+            if(this.quote != '')
             this.$emit('quoteAdded', this.quote);
             this.quote = '';
         }

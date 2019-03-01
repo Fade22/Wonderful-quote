@@ -7,8 +7,10 @@
         </div>
     </div>
 </template>
+
 <script>
 </script>
+
 <style>
     .panel-body {
         font-family: 'Arizonia', cursive;
